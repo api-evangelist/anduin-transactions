@@ -1,8 +1,16 @@
 aid: anduin-transactions
 name: Anduin Transactions
-description: Anduin Transactions is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Anduin builds digital fund operations software for private markets, serving
+  venture capital, private equity, and hedge funds. Its platform streamlines
+  investor onboarding and fund administration through products including Fund
+  Subscription, Data Room, Investor Data Management, Engagement Hub, Integration
+  Hub, a Data Extraction Service, and Investor Access/Portal. Anduin reports
+  1,305+ funds served, $244B+ capital raised, and 74,000+ investors subscribed.
+  The company was surfaced as a portfolio company of 500 Global. As of this
+  profile Anduin publishes no public developer API or OpenAPI; this record
+  captures the company's public identity, security posture, and compliance
+  program for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/anduin-transactions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +18,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://anduintransact.com/hubfs/Anduin.png
 tags:
 - Company
+- Private Markets
+- Fund Administration
+- Venture Capital
+- Private Equity
+- Investor Onboarding
+- Fund Subscription
+- Data Room
+- FinTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,36 @@ maintainers:
 common:
 - type: Website
   url: https://anduintransact.com
+- type: Blog
+  url: https://anduintransact.com/blog
+- type: BlogRSS
+  url: https://anduintransact.com/blog/rss.xml
+- type: Support
+  url: https://anduintransact.com/book-a-demo
+- type: SignUp
+  url: https://anduintransact.com/book-a-demo
+- type: TermsOfService
+  url: https://anduintransact.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://anduintransact.com/privacy-policy
+- type: Security
+  url: https://anduintransact.com/security
+- type: Compliance
+  url: https://anduintransact.com/security
+- type: TrustCenter
+  url: https://anduintransact.com/anduin-trust-center
+- type: WellKnown
+  url: well-known/anduin-transactions-well-known.yml
+- type: SecurityTxt
+  url: well-known/anduin-transactions-security.txt
+- type: DomainSecurity
+  url: security/anduin-transactions-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/anduin-transactions-vulnerability-disclosure.yml
+- type: LLMsTxt
+  url: llms/anduin-transactions-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,5 @@
+Acknowledgments: https://anduintransact.com/hall-of-fame
+# Our security address
+Contact: mailto:security@anduintransact.com
+Preferred-Languages: en, vi
+Expires: 2025-12-31T23:59:59z%      
