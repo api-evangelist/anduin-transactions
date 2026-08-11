@@ -73,7 +73,7 @@ common:
 - type: WellKnown
   url: well-known/anduin-transactions-well-known.yml
 - type: SecurityTxt
-  url: well-known/anduin-transactions-security.txt
+  url: security/anduin-transactions-security.txt
 - type: DomainSecurity
   url: security/anduin-transactions-domain-security.yml
 - type: VulnerabilityDisclosure
